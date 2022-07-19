@@ -1,8 +1,6 @@
-# Unified Framework for Pedestrian Detection & Intention Classification 
 
-Collaborative research project between Volvo Cars USA & Sweden, UC Berkeley, and Chalmers University.
 
-Team: [Rajarathnam Balakrishnan](https://www.linkedin.com/in/rajarathnam-balakrishnan-7b447b135/), [Francesco Piccoli](https://www.linkedin.com/in/francesco-piccoli/), [Maria Jesus Perez](https://www.linkedin.com/in/maria-jesus-perez-brown/), [Moraldeepsingh Sachdeo](https://www.linkedin.com/in/moraldeepsingh/), [Carlos Nuñez](https://www.linkedin.com/in/carlosnunezcardenas/), [Matthew Tang](https://www.linkedin.com/in/matthewgtang/)
+
 
 <p align='center'>
     <img src="./images/modelC2.gif" width="400px"/>
@@ -16,8 +14,7 @@ Our project involved building an integrated end-to-end system for pedestrian int
 * **Early Fused Skeleton** -> Skeleton mapping: Responsible for mapping skeletons for each tracked pedestrian.
 * **Spatio-Temporal DenseNet** -> Classifier: Responsible for classifying every identified and tracked pedestrian's intention by using the last 16 frames of a pedetrian.
 
-## Visualizations
-For more detailed information about each model and the different components, click [here](https://matthew29tang.github.io/pid-model/) to see the website (made with ReactJS and MaterialUI). Click [here](https://github.com/matthew29tang/pid-model) for the website source code.
+
 
 <p align='center'>
 <a href='https://matthew29tang.github.io/pid-model/#/'>
@@ -54,7 +51,7 @@ The code was developed and run on Google Colab (online iPython notebooks). Each 
 3. Connect runtime to GPU for better/faster results. (Runtime --> Change runtime type --> GPU)
 4. Clone the repository in a notebook cell.
 ```
-!git clone https://github.com/mjpramirez/Volvo-DataX
+!git clone https://github.com/NishilPatel99/pedestrian_intension
 ```
 5. Install dependencies in a notebook cell.
 ```
@@ -106,17 +103,3 @@ Model A uses the following components:
 ### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j?usp=sharing)
 
 
-## GitHub repos adapted for our project
-```
-For this project, we adapted codes for each components from other GitHub repos as mentioned below:
-
-The codes for YOLOv3 was adapted from the GitHub repo: https://github.com/zzh8829/yolov3-tf2
-
-The codes for SORT was adapted from the GitHub repo: https://github.com/abewley/sort
-
-The codes for DeepSORT was adapted from the GitHub repo: https://github.com/nwojke/deep_sort
-
-The codes for Skeleton FittingTF-PoseEstimator was adapted from the GitHub repo: https://github.com/ildoonet/tf-pose-estimation
-
-The codes for ST-DenseNet was adapted from the GitHub repo: https://github.com/GalDude33/DenseNetFCN-3D
-```
