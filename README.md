@@ -16,11 +16,7 @@ Our project involved building an integrated end-to-end system for pedestrian int
 
 
 
-<p align='center'>
-<a href='https://matthew29tang.github.io/pid-model/#/'>
-<img src="images/website.JPG?raw=true" width="500px"/>
-</a>
-</p>
+
 
 ## Repo contents
 * `/checkpoints` - Folder useful to hold weights and checkpoints
@@ -55,13 +51,13 @@ The code was developed and run on Google Colab (online iPython notebooks). Each 
 ```
 5. Install dependencies in a notebook cell.
 ```
-%cd Volvo-DataX/tf-pose-estimation
+%cd pedestrian_intension/tf-pose-estimation
 ! pip3 install -r requirements.txt
 %cd tf_pose/pafprocess
 ! sudo apt install swig
 !swig -python -c++ pafprocess.i && python3 setup.py build_ext --inplace
 ```
-6. Add this Google Drive [folder](https://drive.google.com/drive/folders/1HxKtxBva3US2AJfohlKfjYSdhHvjt2Yc?usp=sharing) of weight files as a shortcut My Drive (Click the bar that says `datax_volvo_additional_files` as the folder name at the top and click **Add shortcut to Drive**)
+6. Add this Google Drive [folder](https://drive.google.com/drive/folders/1QzWZlR4FXJzR6nBT_ZL_k7ruzCep_CjK?usp=sharing) of weight files as a shortcut My Drive (Click the bar that says `additional_files` as the folder name at the top and click **Add shortcut to Drive**)
 7. Run the rest of the notebook cells (**Shift + Enter**) following further directions specific to each model and observe the output
 
 ## Model A
@@ -71,7 +67,7 @@ Model A uses the following components:
 2. SORT - `sortn.py`
 3. DenseNET - `densenet_model.json`
 
-### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1InGYCg_SEosqumijaGyWzC9VoLPm5ZEx?usp=sharing)
+### Click here to test Model A: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nE3lBWkxDDZcqYlfKMuba1S1yjnjkfoO)
 
 ## Model B
 ![model B](./images/modelB.png)
@@ -80,7 +76,7 @@ Model A uses the following components:
 2. DeepSORT - `./deep_sort`
 3. DenseNET - `densenet_model.json`
 
-### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/19YmKS3KZvl86tDN4CWDEZ7lPWjFWWrQQ?usp=sharing)
+### Click here to test Model B: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/176zO5iqg5JsWX7daWx0Wi8wb9cgkPRuF)
 
 ## Model C
 ![model C](./images/modelC.png)
@@ -90,7 +86,7 @@ Model A uses the following components:
 3. Skeleton - `./tf-pose-estimation`
 4. DenseNET - `densenet_model.json`
 
-### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1d8PEeSdVlP0JogKwkytvFeyXXPu_qfXg?usp=sharing)
+### Click here to test Model C: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1p4q1ltgxKfQ7n6e4ERgc56lMjo20pcaA)
 
 ## Model D
 ![model D](./images/modelD.png)
@@ -100,6 +96,6 @@ Model A uses the following components:
 3. Skeleton - `./tf-pose-estimation`
 4. DenseNET - `densenet_model.json`
 
-### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zBR_MaibETkvZWhUiWrnwhQbmJRnko9j?usp=sharing)
+### Click here to test Model D: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1npRWOWVSQ6-8WxjC_zkhCT_kPDL_QDAW)
 
 
